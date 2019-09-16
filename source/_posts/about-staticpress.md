@@ -1,6 +1,7 @@
 ---
 title: About staticpress
 authorname:
+siteAuthor: Hence media
 date: 2019-07-18T00:00:00.000Z
 seotitle: About staticpress
 seokeywords: 'Lorem, ipsum, dolor, sit, amet, consectetur'

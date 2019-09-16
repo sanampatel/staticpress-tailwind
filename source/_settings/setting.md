@@ -5,4 +5,6 @@ fblink:
 twitterlink:
 googlepluslink: 
 instagramlink: 
+customheader: 
+customfooter: 
 ---

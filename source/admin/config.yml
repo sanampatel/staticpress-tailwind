@@ -55,3 +55,5 @@ collections:
       - {label: "TwitterLink:", name: "twitterlink", widget: "string"}
       - {label: "GoogleplusLink", name: "googlepluslink", widget: "string"}
       - {label: "InstagramLink", name: "instagramlink", widget: "string"}
+      - {label: "Custom Header", name: "customheader", widget: "markdown"}
+      - {label: "Custom Footer", name: "customfooter", widget: "markdown"}

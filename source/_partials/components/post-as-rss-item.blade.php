@@ -5,7 +5,7 @@
     <published>{{ date(DATE_ATOM, $entry->date) }}</published>
     <updated>{{ date(DATE_ATOM, $entry->date) }}</updated>
     <author>
-        <name>{{ $entry->author }}</name>
+        <name>{{ $entry->siteAuthor }}</name>
     </author>
     <summary type="html">{{ $entry->excerpt() }}...</summary>
     <content type="html"><![CDATA[

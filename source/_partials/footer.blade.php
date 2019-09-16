@@ -7,25 +7,46 @@
 			<span class="ml-3 mr-3"></span>
 			<div class="heart heart-main"></div>
 			Build on 
-			<a class="text-dark" href="https://tailwindcss.com/">
+			<a class="text-dark" href="https://tailwindcss.com/" target="_blank">
 				<span class="text-bold">Tailwindcss</span>
 			</a> 
 			using 
-			<a class="text-dark" href="https://staticpress.io">
+			<a class="text-dark" href="https://staticpress.io" target="_blank">
 				<span class="text-bold">StaticPress</span>
 			</a>
 		</small>
 	</div>
 </footer>
 
-<!-- Main.js -->
+{{-- Main.js --}}
 <script src="{{ $page->mainUrl }}/asset/build/js/main.js"></script>
 
-<!-- Customize footer scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+
+{{-- Customize footer scripts --}}
 @yield('footer-scripts')
 
-<!-- Identity redirect -->
-@include('_partials.cms.identity_redirect')
+{{-- Identity redirect --}}
+<script>
+if (window.netlifyIdentity) {
+    window.netlifyIdentity.on('init', (user) => {
+        if (!user) {
+            window.netlifyIdentity.on('login', () => {
+                document.location.href = '/admin/';
+            });
+        }
+    });
+}
+</script>
+
+{{-- Identity-widget --}}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<div class="custom-footer">
+	{{ $settings->setting->customfooter }}
+</div>
 
 <script>
 	window.dataLayer = window.dataLayer || [];

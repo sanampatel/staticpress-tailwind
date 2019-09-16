@@ -3,8 +3,11 @@
 @section('content')
 	{{-- Container --}}
 	<div class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+		
 		<h2 class="text-gray-800 text-3xl my-3 font-extrabold">Contact</h2>
 		<p>Fill out the below and i'll be sure to get back to you soon!</p>
+		
+		{{-- Contact form --}}
 		<form class="w-full mt-5">
 			<div class="flex flex-wrap -mx-3 mb-6">
 				<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -37,9 +40,7 @@
 			</div>
 		</form>
 
-            
-        </div>
-
-    </section>
+	</div>
+	{{-- Container end --}}
 
 @endsection

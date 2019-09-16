@@ -8,4 +8,5 @@
 	<author>
 		<name>{{ $page->siteAuthor }}</name>
 	</author>
+	@yield('entries')
 </feed>

@@ -25,11 +25,6 @@
 	{{-- Font awesome --}}
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/fontawesome.css">
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
-
-	@yield('meta')
 	<style>
 		.brand_logo {
 			width: 210px; 
@@ -47,9 +42,9 @@
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 	
-	@yield('meta')
-
-	@include('_partials.cms.identity_widget')
+	<div class="custom-header">
+		{{ $settings->setting->customheader }}
+	</div>
 
 	{{-- Custom CSS --}}
 	<link rel="stylesheet" href="{{ $page->mainUrl }}/asset/build/css/main.css">
