@@ -7,6 +7,8 @@
 	<id>{{ $page->getUrl() }}</id>
 	<author>
 		<name>{{ $page->siteAuthor }}</name>
+		{{-- <name>{{ $page->siteAuthor }}</name> --}}
+
 	</author>
 	@yield('entries')
 </feed>

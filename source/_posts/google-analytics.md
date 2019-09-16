@@ -1,6 +1,6 @@
 ---
 title: Google Analytics
-authorname:
+authorname: Hence media
 date: 2019-07-12T05:51:27.362Z
 seotitle: Google Analytics
 seokeywords: 'Lorem, ipsum, dolor, sit, amet, consectetur'

@@ -41,10 +41,8 @@
 		}
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-	
-	<div class="custom-header">
-		{{ $settings->setting->customheader }}
-	</div>
+
+	@include('_custom.header')
 
 	{{-- Custom CSS --}}
 	<link rel="stylesheet" href="{{ $page->mainUrl }}/asset/build/css/main.css">

@@ -2,6 +2,8 @@
 
 return [
 	'production' => false,
+
+	// user can edit from this point
 	'google_analytic_code' => 'UA-23560239-19',
 	'disqus_code' => 'static-press',
 	'title' => 'Tailwind Demo',
@@ -10,10 +12,12 @@ return [
 	'seodescription' => 'seo, keywords, title, header, demo, posts',
 	'mainUrl' => 'https://tailwind-demo.staticpress.io',
 	'baseUrl' => 'https://tailwind-demo.staticpress.io',
-	'siteAuthor' => 'Hence Media Pvt. Ltd.',
+	'siteAuthor' => 'Hence Media',
 	'site' => [
 		'title' => 'Tailwind Demo | StaticPress',
 	],
+	// do not edit below this point
+
 	'collections' => [
 		'posts' => [
 			'path' => 'posts/{filename}',

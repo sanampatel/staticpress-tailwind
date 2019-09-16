@@ -44,9 +44,7 @@ if (window.netlifyIdentity) {
 {{-- Identity-widget --}}
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-<div class="custom-footer">
-	{{ $settings->setting->customfooter }}
-</div>
+@include('_custom.footer')
 
 <script>
 	window.dataLayer = window.dataLayer || [];

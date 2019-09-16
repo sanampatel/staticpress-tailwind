@@ -1,6 +1,6 @@
 ---
 title: Disqus Comments
-authorname:
+authorname: Hence media
 date: 2019-07-12T00:00:00.000Z
 seotitle: Disqus Comments
 seokeywords: 'Lorem, ipsum, dolor, sit, amet, consectetur'

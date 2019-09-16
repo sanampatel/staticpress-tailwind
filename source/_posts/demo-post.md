@@ -1,6 +1,6 @@
 ---
 title: Demo Post
-authorname:
+authorname: Hence media
 date: 2019-06-01T00:00:00.000Z
 seotitle: Netlify CMS
 seokeywords: 'Lorem, ipsum, dolor, sit, amet, consectetur'
