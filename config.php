@@ -8,8 +8,8 @@ return [
 	'siteName' => 'StaticPress',
 	'seokeywords' => 'seo, keywords, title, header, demo, posts',
 	'seodescription' => 'seo, keywords, title, header, demo, posts',
-	'mainUrl' => 'http://tailwindcss-demo.staticpress.io',
-	'baseUrl' => 'https://tailwindcss-demo.staticpress.io',
+	'mainUrl' => 'https://tailwind-demo.staticpress.io',
+	'baseUrl' => 'https://tailwind-demo.staticpress.io',
 	'siteAuthor' => 'Hence Media Pvt. Ltd.',
 	'site' => [
 		'title' => 'Tailwind Demo | StaticPress',

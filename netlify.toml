@@ -8,7 +8,7 @@ publish = "build_production"
 PHP_VERSION="7.2"
 
 [[redirects]]
-  from = "https://staticpress-tailwindcss.netlify.com/*"
-  to = "https://tailwindcss-demo.staticpress.io/:splat"
+  from = "https://staticpress-tailwind.netlify.com/*"
+  to = "https://tailwind-demo.staticpress.io/:splat"
   status = 301
   force = true
