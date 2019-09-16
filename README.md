@@ -15,6 +15,8 @@
   <a href="https://www.buymeacoffee.com/sanam">
     <img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy me a coffee" />
   </a>
+
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/238a3d56-e173-48a4-9758-d94a96b1913e/deploy-status)](https://app.netlify.com/sites/staticpress-tailwind/deploys)
 </p>
  
 # TailwindCSS Blog Template for StaticPress
