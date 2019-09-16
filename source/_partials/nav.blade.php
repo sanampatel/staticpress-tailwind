@@ -1,4 +1,4 @@
-<header class="flex items-center shadow bg-white border-b h-24 py-4 px-6" role="banner">
+<nav class="flex items-center shadow bg-white border-b h-24 py-4 px-6" role="banner">
 	<div class="container flex items-center max-w-4xl mx-auto py-16 px-6">
 		<div class="flex items-center">
 			<a href="/" class="inline-flex items-center">
@@ -14,4 +14,4 @@
 	        Contact
 	    </a>
 	</div>
-</header>
+</nav>

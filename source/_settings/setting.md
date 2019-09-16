@@ -5,6 +5,6 @@ fblink:
 twitterlink:
 googlepluslink: 
 instagramlink: 
-customheader: Custom Hd
+customheader:
 customfooter: 
 ---
