@@ -1,0 +1,14 @@
+[build]
+
+command = "./vendor/bin/jigsaw build production"
+publish = "build_production"
+
+[build.environment]
+
+PHP_VERSION="7.2"
+
+[[redirects]]
+  from = "https://staticpress-tailwindcss.netlify.com/*"
+  to = "https://tailwindcss-demo.staticpress.io/:splat"
+  status = 301
+  force = true
