@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: sanampatel/staticpress-tailwind
   branch: master
   squash_merges: true
