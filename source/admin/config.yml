@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: 
+  repo: sanampatel/staticpress-tailwind
   branch: master
   squash_merges: true
 publish_mode: editorial_workflow
