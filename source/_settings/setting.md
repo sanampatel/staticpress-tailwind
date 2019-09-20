@@ -3,7 +3,6 @@ aboutauthor: StaticPress is a combination of Jigsaw and Netlify CMS. You can mak
 sitelogo: /source/images/logo.png
 fblink:
 twitterlink:
-googlepluslink: 
 instagramlink: 
 customheader:
 customfooter: 

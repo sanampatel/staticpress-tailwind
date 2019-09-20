@@ -3,17 +3,35 @@
 </p>
 <footer class="blog-footer bg-white p-3">
 	<div class="container text-center">
+		<div class="flex items-center justify-center mx-auto pt-4 pb-4">
+			<div class="px-1 mx-4">
+				<a href="{{ $settings->setting->fblink }}" target="_blank">
+					<img src="{{ $page->mainUrl }}/images/fb.png">
+				</a>
+			</div>
+			<div class="px-1 mx-4">
+				<a href="{{ $settings->setting->twitterlink }}" target="_blank">
+					<img src="{{ $page->mainUrl }}/images/twitter.png">
+				</a>
+			</div>
+			<div class="px-1 mx-4">
+				<a href="{{ $settings->setting->instagramlink }}" target="_blank">
+					<img src="{{ $page->mainUrl }}/images/instagram.png">
+				</a>
+			</div>
+		</div>
 		<small>Made with 
-			<span class="ml-3 mr-3"></span>
-			<div class="heart heart-main"></div>
-			Build on 
-			<a class="text-dark" href="https://tailwindcss.com/" target="_blank">
-				<span class="text-bold">Tailwindcss</span>
-			</a> 
-			using 
-			<a class="text-dark" href="https://staticpress.io" target="_blank">
-				<span class="text-bold">StaticPress</span>
-			</a>
+			<span class="span">
+			    Made with <i class="fa pulse">&#x2665;</i>
+				Build on 
+				<a class="text-dark" href="https://tailwindcss.com/" target="_blank">
+					<span class="text-bold">Tailwindcss</span>
+				</a> 
+				using 
+				<a class="text-dark" href="https://staticpress.io" target="_blank">
+					<span class="text-bold">StaticPress</span>
+				</a>
+			</span>
 		</small>
 	</div>
 </footer>
@@ -31,13 +49,13 @@
 {{-- Identity redirect --}}
 <script>
 if (window.netlifyIdentity) {
-    window.netlifyIdentity.on('init', (user) => {
-        if (!user) {
-            window.netlifyIdentity.on('login', () => {
-                document.location.href = '/admin/';
-            });
-        }
-    });
+	window.netlifyIdentity.on('init', (user) => {
+		if (!user) {
+			window.netlifyIdentity.on('login', () => {
+				document.location.href = '/admin/';
+			});
+		}
+	});
 }
 </script>
 
