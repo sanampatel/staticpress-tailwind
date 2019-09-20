@@ -10,7 +10,7 @@ return [
 	'siteName' => 'StaticPress',
 	'seokeywords' => 'seo, keywords, title, header, demo, posts',
 	'seodescription' => 'seo, keywords, title, header, demo, posts',
-	'mainUrl' => 'http://localhost:8080',
+	'mainUrl' => 'https://tailwind-demo.staticpress.io',
 	'baseUrl' => 'https://tailwind-demo.staticpress.io',
 	'siteAuthor' => 'Hence Media',
 	'site' => [
