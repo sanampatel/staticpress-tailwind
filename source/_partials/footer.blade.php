@@ -20,7 +20,7 @@
 				</a>
 			</div>
 		</div>
-		<small>Made with 
+		<small> 
 			<span class="span">
 			    Made with <i class="fa pulse">&#x2665;</i>
 				Build on 
