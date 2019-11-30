@@ -13,7 +13,7 @@ categories: analytics
 image: /source/images/google-analytics.png
 comments: true
 isPosts: true
-
+description: Staticpress is simple and easy to use software for making your own website with admin panel. One can make his/her own website in just few clicks by using Staticpress and Netlify CMS. You just have to download staticpress repository from github, install composer and npm.Staticpress is simple and easy to use software for making your own website with admin panel. One can make his/her own website in just few clicks by using Staticpress and Netlify CMS. You just have to download staticpress repository from github, install composer and npm.
 ---
 
 Google Analytics is digital analytics software. It's a web analytics service that allows you to analyze in-depth detail about the visitors on your website.

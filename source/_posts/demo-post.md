@@ -14,6 +14,7 @@ categories: description
 image: /source/images/about.png
 comments: true
 isPosts: true
+description: Staticpress is simple and easy to use software for making your own website with admin panel. One can make his/her own website in just few clicks by using Staticpress and Netlify CMS. You just have to download staticpress repository from github, install composer and npm.Staticpress is simple and easy to use software for making your own website with admin panel. One can make his/her own website in just few clicks by using Staticpress and Netlify CMS. You just have to download staticpress repository from github, install composer and npm.
 
 ---
 
