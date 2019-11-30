@@ -7,7 +7,7 @@ return [
 	'google_analytic_code' => 'UA-23560239-19',
 	'disqus_code' => 'static-press',
 	'title' => 'Tailwind Demo',
-	'siteName' => 'StaticPress',
+	'sitename' => 'StaticPress',
 	'seokeywords' => 'seo, keywords, title, header, demo, posts',
 	'seodescription' => 'seo, keywords, title, header, demo, posts',
 	'mainUrl' => 'https://tailwind-demo.staticpress.io',

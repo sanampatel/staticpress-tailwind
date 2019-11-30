@@ -4,18 +4,17 @@ authorname: Hence media
 date: 2019-06-01T00:00:00.000Z
 seotitle: Netlify CMS
 seokeywords: 'Lorem, ipsum, dolor, sit, amet, consectetur'
-seodescription: >-
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+seodescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium
 tags:
   - cms
   - demo
   - netlify
 categories: description
-isPosts: true
-image: 
+image: /source/images/about.png
 comments: true
-featured: false
+isPosts: true
+
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

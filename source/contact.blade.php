@@ -1,5 +1,11 @@
 @extends('_layouts.master')
 
+@section('head')
+    <title>Contact | {{ $page->sitename }}</title>
+    <meta name="keywords" content="{{ $settings->setting->seokeywords }}">
+    <meta name="description" content="{{ $settings->setting->seodescription }}">
+@endsection
+
 @section('content')
 	{{-- Container --}}
 	<div class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">

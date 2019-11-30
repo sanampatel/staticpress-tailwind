@@ -6,4 +6,8 @@ twitterlink:
 instagramlink: 
 customheader:
 customfooter: 
+seotitle: Demo Blog
+seokeywords: Demo Blog, StaticPress Demo Blog, StaticPress, Blog
+seodescription: This is Demo Post of StaticPress.
+
 ---

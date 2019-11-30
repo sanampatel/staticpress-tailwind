@@ -5,6 +5,12 @@ pagination:
 ---
 @extends('_layouts.master')
 
+@section('head')
+    <title>{{ $settings->setting->seotitle}} | {{ $page->sitename }}</title> 
+    <meta name="keywords" content="{{ $settings->setting->seokeywords }}">
+    <meta name="description" content="{{ $settings->setting->seodescription }}">
+@endsection
+
 @section('content') 
 	<div class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
 		<h2 class="text-5xl font-extrabold text-gray-800">Recent Posts</h2>

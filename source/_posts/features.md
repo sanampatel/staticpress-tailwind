@@ -4,18 +4,16 @@ authorname: Hence media
 date: 2019-07-06T00:00:00.000Z
 seotitle: Features of StaticPress
 seokeywords: 'Features, StaticPress, Software, Demo'
-seodescription: >-
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+seodescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium
 tags:
   - demo
   - cms
 categories: features
-isPosts: true
 image: /source/images/features-large.png
-smallimage: /source/images/author-img.jpeg
 comments: true
-featured: false
+isPosts: true
+
 ---
 
 StaticPress has following features.

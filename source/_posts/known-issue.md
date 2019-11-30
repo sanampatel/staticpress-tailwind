@@ -4,17 +4,15 @@ authorname: Hence media
 date: 2019-05-30T00:00:00.000Z
 seotitle: Netlify CMS
 seokeywords: 'Lorem, ipsum, dolor, sit, amet, consectetur'
-seodescription: >-
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+seodescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium
 tags:
   - staticpress
 categories: issues
-isPosts: true
 image: 
-smallimage: 
 comments: true
-featured: false
+isPosts: true
+
 ---
 
 There is one known issue in StaticPress. Isssue of adding new category/tag.

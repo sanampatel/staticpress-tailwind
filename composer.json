@@ -1,7 +1,7 @@
 {
-    "name": "sanampatel/staticpress-bootstrap4-blog",
-    "description": "StaticPress blog template in Twitter Bootstrap 4",
-    "keywords": ["blog", "jigsaw", "netlify", "netlify cms", "staticpress", "demo", "bootstrap"],
+    "name": "sanampatel/staticpress-tailwind-blog",
+    "description": "StaticPress blog template in Twitter Tailwind",
+    "keywords": ["blog", "jigsaw", "netlify", "netlify cms", "staticpress", "demo", "tailwind"],
     "license": "MIT",
     "authors": [
         {
